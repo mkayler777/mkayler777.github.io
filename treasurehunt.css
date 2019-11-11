@@ -1,0 +1,43 @@
+.gameBorder{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    margin-left: 40vw;
+    margin-right: 40vw;
+    font-size: 50px;
+    background-color:purple;
+    min-width: 218px;
+}
+
+body{
+    font-family: 'Indie Flower', cursive;
+    background-color: lightgreen
+}
+
+#treeImage{
+    text-align: center;
+    height: 300px;
+}
+
+.tree{
+    height: 300px;
+}
+
+h1{
+    font-size: 50px;
+    text-align:center;
+}
+
+td:hover {
+    background-color: green;
+    cursor: pointer;
+}
+
+.parallax{
+    background-image: url("https://previews.123rf.com/images/terriana/terriana1212/terriana121200096/16875623-snowflakes-seamless-pattern-christmas-snow-background.jpg");
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
